@@ -1,0 +1,30 @@
+* {
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(250, 250, 250);
+    padding: 10px 20px;
+
+    h1 {
+        margin: 0;
+        font-family: "Roboto" sans-serif;
+        font-size: 1.7rem;
+        color: black;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        text-decoration: none;
+        list-style: none;
+        cursor: pointer;
+    }
+}
