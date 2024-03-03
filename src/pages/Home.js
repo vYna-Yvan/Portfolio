@@ -2,6 +2,8 @@ import React from "react";
 import "../sass/Home.scss";
 import Github from "../assets/icones/github.svg";
 import { Link } from "react-router-dom";
+import Project from "../components/projets/Projet";
+
 const Home = () => {
   return (
     <div className="main-container">
@@ -21,12 +23,42 @@ const Home = () => {
           </p>
           <div className="contact-banner">
             <div className="contact">ME CONTACTER</div>
-            <Link className="github" to="https://github.com/vYna-Yvan">
+            <Link
+              className="github"
+              to="https://github.com/vYna-Yvan"
+              target="blank"
+            >
               <img alt="github" src={Github} />
               <p>Github</p>
             </Link>
           </div>
         </div>
+      </div>
+      <div className="about-me">
+        <div className="details">
+          <h2>À propos de moi</h2>
+          <p>
+            Ça fait 3 ans que je suis dans le monde du Web. J'ai suivi diverses
+            formations telles que le Web Design et l'intégration web, ainsi que
+            des apprentissages sur des sites tels que{" "}
+            <Link to="https://www.freecodecamp.org/" target="_blank">
+              FreeCodeCamp
+            </Link>
+            .
+            <br />
+            <br />
+            Je me suis ensuite vraiment intéressé à ce domaine en commençant par
+            la programmation sur Swift Playground par curiosité.
+          </p>
+        </div>
+      </div>
+      <div className="projects">
+        <Project
+          projetDate="2023"
+          projetTitle="Argent Bank"
+          projetDetails="Une application web bancaire"
+          backgroundImage="../assets/images/Argent_bank_home.png"
+        />
       </div>
     </div>
   );
