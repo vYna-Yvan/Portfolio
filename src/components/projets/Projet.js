@@ -8,10 +8,7 @@ const Project = ({
   backgroundImage,
 }) => {
   return (
-    <div
-      className="project"
-      style={{ backgroundImage: `url(${backgroundImage})` }}
-    >
+    <div className="project">
       <div>
         <p>{projetDate}</p>
         <h2>{projetTitle}</h2>

@@ -3,6 +3,7 @@ import "../sass/Home.scss";
 import Github from "../assets/icones/github.svg";
 import { Link } from "react-router-dom";
 import Project from "../components/projets/Projet";
+import ArgentBank from "../assets/images/Argent_bank_home.png";
 
 const Home = () => {
   return (
@@ -53,6 +54,26 @@ const Home = () => {
         </div>
       </div>
       <div className="projects">
+        <h2>Projets réaliser</h2>
+        <Link className="argent-bank">
+          <Project
+            projetDate="2023"
+            projetTitle="Argent Bank"
+            projetDetails="Une application web bancaire"
+          />
+        </Link>
+        <Project
+          projetDate="2023"
+          projetTitle="Argent Bank"
+          projetDetails="Une application web bancaire"
+          backgroundImage="../assets/images/Argent_bank_home.png"
+        />
+        <Project
+          projetDate="2023"
+          projetTitle="Argent Bank"
+          projetDetails="Une application web bancaire"
+          backgroundImage="../assets/images/Argent_bank_home.png"
+        />
         <Project
           projetDate="2023"
           projetTitle="Argent Bank"
