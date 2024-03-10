@@ -1,19 +1,21 @@
 import React from "react";
 import "../sass/Home.scss";
+
 import Github from "../assets/icones/github.svg";
 import { Link } from "react-router-dom";
 import ProjectCard from "../components/projets/Projet";
+import Skills from "../components/skills/Skills";
 
 const Home = () => {
   return (
     <div className="main-container">
-      <div className="banner">
+      <div id="home" className="banner">
         <div className="banner-info">
           <h1>
             Yvan
             <br /> Marville
           </h1>
-          <h2>Développeur Web junior</h2>
+          <h2>Étudiant chez Openclassroom</h2>
           <p>
             Lorem ipsumfgververvbv
             <br />
@@ -34,7 +36,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="about-me">
+      <div id="about-me" className="about-me">
         <div className="details">
           <h2>À propos de moi</h2>
           <p>
@@ -43,21 +45,24 @@ const Home = () => {
             des apprentissages sur des sites tels que{" "}
             <Link to="https://www.freecodecamp.org/" target="_blank">
               FreeCodeCamp
+            </Link>{" "}
+            ou{" "}
+            <Link to="https://www.codecademy.com/" target="_blank">
+              Codecademy
             </Link>
             .
             <br />
             <br />
             Je me suis ensuite vraiment intéressé à ce domaine en commençant par
-            la programmation sur Swift Playground par curiosité.
+            la programmation avec Swift sur Playground par curiosité.
           </p>
         </div>
       </div>
-      <div className="projects">
+      <div id="projets" className="projects">
         <h2>Projets réaliser</h2>
-        <div className="projects-list">
-          <ProjectCard />
-        </div>
+        <ProjectCard />
       </div>
+      <Skills id="skills" />
     </div>
   );
 };

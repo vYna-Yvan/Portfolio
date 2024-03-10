@@ -11,12 +11,22 @@ header {
     width: 100%;
     background-color: rgb(250, 250, 250);
     padding: 10px 20px;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+
+    .home-img {
+        height: 30px;
+        width: 30px;
+        color: rgba(64, 142, 64, 0.182);
+    }
 
     h1 {
         margin: 0;
         font-family: "Roboto" sans-serif;
         font-size: 1.7rem;
         color: black;
+        ;
     }
 
     nav ul {
@@ -26,5 +36,9 @@ header {
         text-decoration: none;
         list-style: none;
         cursor: pointer;
+
+        a {
+            color: black;
+        }
     }
 }

@@ -1,29 +1,55 @@
 import React from "react";
-import "./projet.scss";
 import { Card, Tag } from "antd";
+import "./projet.scss";
 import argent from "../../assets/images/Argent_bank_home.png";
 import kasa from "../../assets/images/Kasa_appt_2.png";
+import ohmyfood from "../../assets/images/OhMyFood_home.png";
 
 const { Meta } = Card;
 
-const Project = ({ title, image, date, technologies, githubRepo }) => (
+const stackColors = {
+  react: "#61dafb",
+  redux: "#764abc",
+  router: "#eb4034",
+  swagger: "#85ea2d",
+  html: "#e44d26",
+  css: "#000080",
+  sass: "#cc6699",
+  "font-awesome": "#3399cc",
+};
+
+const Project = ({ title, image, date, stacks, githubRepo, liveSite }) => (
   <Card
     hoverable
     style={{ width: 500 }}
     cover={<img alt={title} src={image} />}
   >
-    <Meta title={title} description={`Date: ${date}`} />
+    <Meta title={title} description={`Période: ${date}`} />
     <div className="technologies">
-      {technologies.map((tech, index) => (
-        <Tag key={index} className={`tech-${tech.toLowerCase()}`}>
-          {tech}
+      {stacks.map((stack, index) => (
+        <Tag
+          key={index}
+          style={{
+            backgroundColor: stackColors[stack.toLowerCase()],
+            color: "#ffffff",
+          }}
+          className={`stack-${stack.toLowerCase()}`}
+        >
+          {stack}
         </Tag>
       ))}
     </div>
-    <div>
+    <div className="git-link">
       <a href={githubRepo} target="_blank" rel="noopener noreferrer">
         GitHub Repo
       </a>
+      {liveSite && (
+        <div>
+          <a href={liveSite} target="_blank" rel="noopener noreferrer">
+            Live Site
+          </a>
+        </div>
+      )}
     </div>
   </Card>
 );
@@ -32,16 +58,34 @@ const projectsData = [
   {
     title: "Argent-Bank",
     image: argent,
-    date: "2022-03-06",
-    technologies: ["React", "Redux"],
-    githubRepo: "https://github.com/username/argent-bank-repo",
+    date: "02-2024",
+    stacks: ["React", "Redux", "Router", "CSS", "Swagger"],
+    githubRepo: "https://github.com/vYna-Yvan/Argent-Bank-React",
+    liveSite: "https://example.com/argent-bank",
   },
   {
     title: "Kasa",
     image: kasa,
-    date: "2022-03-07",
-    technologies: ["React"],
+    date: "01-2024",
+    stacks: ["React", "Router", "CSS"],
     githubRepo: "https://github.com/username/kasa-repo",
+    liveSite: "https://example.com/kasa",
+  },
+  {
+    title: "OhMyFood",
+    image: ohmyfood,
+    date: "09-2023",
+    stacks: ["HTML", "SASS", "Font-Awesome"],
+    githubRepo: "https://github.com/vYna-Yvan/OhMyFood",
+    liveSite: "https://vyna-yvan.github.io/OhMyFood/",
+  },
+  {
+    title: "OhMyFood",
+    image: ohmyfood,
+    date: "09-2023",
+    stacks: ["HTML", "SASS", "Font-Awesome"],
+    githubRepo: "https://github.com/vYna-Yvan/OhMyFood",
+    liveSite: "https://vyna-yvan.github.io/OhMyFood/",
   },
 ];
 
@@ -53,8 +97,9 @@ const ProjectCard = () => (
         title={project.title}
         image={project.image}
         date={project.date}
-        technologies={project.technologies}
+        stacks={project.stacks}
         githubRepo={project.githubRepo}
+        liveSite={project.liveSite}
       />
     ))}
   </div>

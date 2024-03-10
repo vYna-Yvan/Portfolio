@@ -1,20 +1,32 @@
-//import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import { HashLink as Anchor } from "react-router-hash-link";
 import "./header.scss";
+import treeIcon from "../../assets/icones/tree-solid.svg";
 
 const Header = () => {
   return (
     <header>
-      <Link to="/">
-        <h1>Home</h1>
-      </Link>
+      <Anchor to="/#home">
+        <img className="home-img" alt="tree" src={treeIcon} />
+      </Anchor>
       <nav>
         <ul>
-          <li>Compétence</li>
-          <li>Projets</li>
-          <li>Réseaux</li>
-          <li>Contact</li>
+          <li>
+            <Anchor smooth to="/#projets">
+              Projets
+            </Anchor>
+          </li>
+          <li>
+            <Anchor smooth to="/#skills">
+              Compétence
+            </Anchor>
+          </li>
+          <li>
+            <Anchor smooth to="/#contact">
+              Contact
+            </Anchor>
+          </li>
         </ul>
       </nav>
     </header>

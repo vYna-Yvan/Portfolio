@@ -22,7 +22,7 @@ const Navigation = () => {
         <Route path="/Project2" element={<Project2 />} />
         <Route path="/Project3" element={<Project3 />} />
       </Routes>
-      <Footer />
+      <Footer id="contact" />
     </Router>
   );
 };

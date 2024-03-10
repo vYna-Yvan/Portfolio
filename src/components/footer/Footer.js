@@ -1,9 +1,67 @@
-import React from 'react'
+import React, { useState } from "react";
+import "./footer.scss";
 
 const Footer = () => {
-  return (
-    <div>Footer</div>
-  )
-}
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
 
-export default Footer
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData((prevData) => ({
+      ...prevData,
+      [name]: value,
+    }));
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    // Ici, vous pouvez ajouter la logique pour traiter le formulaire, comme l'envoi d'e-mail ou la sauvegarde des données.
+    console.log("Formulaire soumis avec les données :", formData);
+    // Réinitialiser le formulaire après la soumission
+    setFormData({
+      name: "",
+      email: "",
+      message: "",
+    });
+  };
+
+  return (
+    <div id="contact" className="footer-container">
+      <div>Contenu du pied de page</div>
+      <form onSubmit={handleSubmit}>
+        <label htmlFor="name">Nom :</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          value={formData.name}
+          onChange={handleChange}
+        />
+
+        <label htmlFor="email">Email :</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          value={formData.email}
+          onChange={handleChange}
+        />
+
+        <label htmlFor="message">Message :</label>
+        <textarea
+          id="message"
+          name="message"
+          value={formData.message}
+          onChange={handleChange}
+        ></textarea>
+
+        <button type="submit">Envoyer</button>
+      </form>
+    </div>
+  );
+};
+
+export default Footer;
