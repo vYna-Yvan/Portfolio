@@ -5,6 +5,7 @@ import Github from "../assets/icones/github.svg";
 import { Link } from "react-router-dom";
 import ProjectCard from "../components/projets/Projet";
 import Skills from "../components/skills/Skills";
+import AboutMe from "../components/aboutMe/AboutMe";
 
 const Home = () => {
   return (
@@ -36,28 +37,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div id="about-me" className="about-me">
-        <div className="details">
-          <h2>À propos de moi</h2>
-          <p>
-            Ça fait 3 ans que je suis dans le monde du Web. J'ai suivi diverses
-            formations telles que le Web Design et l'intégration web, ainsi que
-            des apprentissages sur des sites tels que{" "}
-            <Link to="https://www.freecodecamp.org/" target="_blank">
-              FreeCodeCamp
-            </Link>{" "}
-            ou{" "}
-            <Link to="https://www.codecademy.com/" target="_blank">
-              Codecademy
-            </Link>
-            .
-            <br />
-            <br />
-            Je me suis ensuite vraiment intéressé à ce domaine en commençant par
-            la programmation avec Swift sur Playground par curiosité.
-          </p>
-        </div>
-      </div>
+      <AboutMe />
       <div id="projets" className="projects">
         <h2>Projets réaliser</h2>
         <ProjectCard />
