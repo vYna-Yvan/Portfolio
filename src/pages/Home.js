@@ -16,7 +16,7 @@ const Home = () => {
             Yvan
             <br /> Marville
           </h1>
-          <h2>Étudiant chez Openclassroom</h2>
+          <h2>Aprenant chez Openclassroom</h2>
           <p>
             Lorem ipsumfgververvbv
             <br />
