@@ -18,9 +18,9 @@ const Footer = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Ici, vous pouvez ajouter la logique pour traiter le formulaire, comme l'envoi d'e-mail ou la sauvegarde des données.
+
     console.log("Formulaire soumis avec les données :", formData);
-    // Réinitialiser le formulaire après la soumission
+
     setFormData({
       name: "",
       email: "",

@@ -7,7 +7,7 @@ import treeIcon from "../../assets/icones/tree-solid.svg";
 const Header = () => {
   return (
     <header>
-      <Anchor to="/#home">
+      <Anchor smooth to="/#home">
         <img className="home-img" alt="tree" src={treeIcon} />
       </Anchor>
       <nav>
@@ -20,11 +20,6 @@ const Header = () => {
           <li>
             <Anchor smooth to="/#skills">
               Compétence
-            </Anchor>
-          </li>
-          <li>
-            <Anchor smooth to="/#contact">
-              Contact
             </Anchor>
           </li>
         </ul>

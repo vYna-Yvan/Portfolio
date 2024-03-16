@@ -1,75 +1,10 @@
 @import url(./root.scss);
 
-
-
-
 .main-container {
     width: 100%;
 
 }
 
-.banner {
-    display: flex;
-    flex-direction: row;
-    background-image: url(../assets/images/Forest.jpg);
-    background-size: cover;
-    background-position: center center;
-    object-fit: cover;
-    width: 100%;
-    padding: 40px 40px;
-
-
-}
-
-.banner-info {
-    width: 50%;
-    margin: 70px 0;
-    color: #fff;
-
-    h1 {
-        margin: 0;
-        margin-bottom: 10px;
-        font-size: 4rem;
-        line-height: 4rem;
-        font-family: 'Playfair Display';
-    }
-
-    h2 {
-        margin: 0;
-    }
-
-    .contact-banner {
-        display: flex;
-        flex-direction: row;
-        gap: 20px;
-
-        .contact {
-            padding: 15px 30px;
-            background-color: black;
-            color: #fff;
-            cursor: pointer;
-
-        }
-
-        .github {
-            width: auto;
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            height: 50px;
-            padding: 15px 30px;
-            border: 1px solid #fff;
-            gap: 10px;
-            color: #fff;
-
-            img {
-                height: 30px;
-                width: 30px;
-
-            }
-        }
-    }
-}
 
 
 .projects {
