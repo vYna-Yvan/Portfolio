@@ -11,6 +11,15 @@
     align-items: center;
     padding: 50px 0;
 
+    h2 {
+        font-size: 2rem;
+
+        @media screen and (max-width: 768px) {
+            font-size: 1.5rem;
+        }
+
+    }
+
     @media screen and (max-width: 1024px) {
         padding: 30px;
         /* Ajustez le padding pour les écrans de bureau jusqu'à 1024px */
@@ -69,6 +78,12 @@
         font-weight: bold;
     }
 
+    .ant-card-meta-description {
+        font-size: medium;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+
     .technologies {
         display: flex;
         flex-direction: row;
@@ -83,7 +98,14 @@
         }
     }
 
-    .git-link {
+    .project-link {
+        a {
+            color: black;
+            font-size: medium;
+        }
+    }
+
+    .repoGit-link {
         display: flex;
         flex-direction: row;
         gap: 10px;

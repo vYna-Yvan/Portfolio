@@ -50,12 +50,12 @@ const Project = ({
         </Tag>
       ))}
     </div>
-    <div className="git-link">
+    <div className="project-link repoGit-link">
       <a href={githubRepo} target="_blank" rel="noopener noreferrer">
-        GitHub Repo
+        Repository
       </a>
       {liveSite && (
-        <div>
+        <div className="project-link liveSite-link">
           <a href={liveSite} target="_blank" rel="noopener noreferrer">
             Live Site
           </a>
