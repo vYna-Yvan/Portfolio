@@ -22,7 +22,14 @@ const AboutMe = () => {
           <br />
           <br />
           Je me suis ensuite vraiment intéressé à ce domaine en commençant par
-          la programmation avec Swift sur Playground par curiosité.
+          la programmation avec{" "}
+          <Link
+            to="https://www.apple.com/fr/swift/playgrounds/"
+            target="_blank"
+          >
+            SwiftPlayground
+          </Link>{" "}
+          par curiosité.
         </p>
       </div>
     </div>

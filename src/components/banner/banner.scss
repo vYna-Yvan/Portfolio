@@ -1,15 +1,18 @@
 @import url(../../sass/root.scss);
 
-
 .banner {
     display: flex;
     flex-direction: row;
     background-image: url(../../assets/images/Forest.jpg);
     background-size: cover;
     background-position: center center;
-    object-fit: cover;
     width: 100%;
     padding: 40px 40px;
+
+    @media screen and (max-width: 1024px) {
+        padding: 30px 30px;
+        /* Ajustez le padding pour les écrans de bureau jusqu'à 1024px */
+    }
 }
 
 .banner-info {
@@ -37,7 +40,6 @@
     .contact-banner {
         display: flex;
         flex-direction: row;
-
         gap: 20px;
         width: auto;
 
@@ -56,14 +58,10 @@
 
             @media screen and (max-width: 768px) {
                 font-size: 14px;
-
-
-
             }
         }
 
         .github {
-            width: auto;
             display: flex;
             flex-direction: row;
             align-items: center;
@@ -76,7 +74,6 @@
             img {
                 height: 30px;
                 width: 30px;
-
             }
         }
     }

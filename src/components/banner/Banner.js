@@ -16,7 +16,7 @@ const Banner = () => {
         <p>
           J’ai 22 ans, et je suis actuellement dans une formation
           <br />
-          chez Openclassroom pour 2024 j'espère passer au niveau supérieur
+          chez Openclassroom, pour 2024 j'espère passer au niveau supérieur
           <br />
           et faire une alternance dans une entreprise pour gagner en expérience
           et connaissance.

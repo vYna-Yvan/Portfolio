@@ -7,7 +7,7 @@ import Banner from "../components/banner/Banner";
 
 const Home = () => {
   return (
-    <div className="main-container">
+    <main className="main-container">
       <Banner />
       <AboutMe />
       <div id="projets" className="projects">
@@ -15,7 +15,7 @@ const Home = () => {
         <ProjectCard />
       </div>
       <Skills id="skills" />
-    </div>
+    </main>
   );
 };
 
