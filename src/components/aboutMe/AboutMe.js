@@ -38,8 +38,8 @@ const AboutMe = () => {
             target="_blank"
           >
             SwiftPlaygrounds
-          </Link>
-          de Apple . Cette période de découverte a été cruciale pour moi, car
+          </Link>{" "}
+          d'Apple . Cette période de découverte a été cruciale pour moi, car
           elle m'a permis de définir ma passion et de me concentrer sur mes
           objectifs professionnels.
         </p>
