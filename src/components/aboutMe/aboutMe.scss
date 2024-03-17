@@ -4,6 +4,10 @@
     background-color: rgba(64, 142, 64, 0.182);
     padding: 100px 200px 100px 100px;
 
+    @media screen and (max-width: 768px) {
+        padding: 30px 30px 30px 30px;
+    }
+
     .details {
         width: 80%;
 

@@ -138,7 +138,7 @@ const ProjectCard = () => {
       ))}
       <Modal
         title={selectedProject && selectedProject.title}
-        visible={modalVisible}
+        open={modalVisible}
         onCancel={closeModal}
         footer={null}
       >

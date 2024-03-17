@@ -12,9 +12,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 50px 50px;
 
-    @media only screen and (min-width: 1200px) {
-        padding: 100px 100px;
+    @media screen and (max-width: 768px) {
+        padding: 0;
     }
 
     .card-list {
@@ -22,6 +23,19 @@
         flex-direction: row;
         flex-wrap: wrap;
         gap: 20px;
+        padding: 50px;
+        justify-content: center;
+
+        @media screen and (max-width: 768px) {
+            width: 100%;
+            padding: 0 20px;
+            justify-content: center;
+
+            .ant-card {
+                width: 100% !important;
+            }
+        }
+
     }
 
 

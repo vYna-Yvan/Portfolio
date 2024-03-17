@@ -13,7 +13,7 @@
 }
 
 .banner-info {
-    width: 50%;
+    width: 100%;
     margin: 70px 0;
     color: #fff;
 
@@ -23,6 +23,11 @@
         font-size: 4rem;
         line-height: 4rem;
         font-family: 'Playfair Display';
+
+        @media screen and (max-width: 768px) {
+            font-size: 3rem;
+            line-height: 3rem;
+        }
     }
 
     h2 {
@@ -32,14 +37,29 @@
     .contact-banner {
         display: flex;
         flex-direction: row;
+
         gap: 20px;
+        width: auto;
+
+        @media screen and (max-width: 768px) {
+            flex-direction: column;
+            width: 70%;
+        }
 
         .contact {
+            height: 50px;
             padding: 15px 30px;
             background-color: black;
             color: #fff;
             cursor: pointer;
+            height: auto;
 
+            @media screen and (max-width: 768px) {
+                font-size: 14px;
+
+
+
+            }
         }
 
         .github {
