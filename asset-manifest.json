@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.188c9189.css",
-    "main.js": "/Portfolio/static/js/main.87178040.js",
+    "main.css": "/Portfolio/static/css/main.6029b650.css",
+    "main.js": "/Portfolio/static/js/main.ca4d28b7.js",
     "static/js/453.1407b060.chunk.js": "/Portfolio/static/js/453.1407b060.chunk.js",
-    "static/media/OhMyFood_home.png": "/Portfolio/static/media/OhMyFood_home.425cc587792499660c20.png",
-    "static/media/724event.png": "/Portfolio/static/media/724event.5e32c871fd386d20a48a.png",
-    "static/media/Forest.jpg": "/Portfolio/static/media/Forest.407b6674f35df017240c.jpg",
-    "static/media/Kasa_appt_2.png": "/Portfolio/static/media/Kasa_appt_2.fb21aa1e700f6e8298a4.png",
-    "static/media/Argent_bank_home.png": "/Portfolio/static/media/Argent_bank_home.729f94b693b8b2be43b4.png",
+    "static/media/OhMyFood_home.png": "/Portfolio/static/media/OhMyFood_home.5fcfe744200f3a0e4d58.png",
+    "static/media/724event.png": "/Portfolio/static/media/724event.582c6527bbf552311215.png",
+    "static/media/Kasa_appt_2.png": "/Portfolio/static/media/Kasa_appt_2.e03922cc508a1146af13.png",
+    "static/media/Argent_bank_home.png": "/Portfolio/static/media/Argent_bank_home.013c85a642bdc2018a80.png",
+    "static/media/Forest.jpg": "/Portfolio/static/media/Forest.fc9e954bd14620a2b87d.jpg",
     "static/media/sass.svg": "/Portfolio/static/media/sass.bf7737707f98a7a6306a121f66eff723.svg",
     "static/media/react.svg": "/Portfolio/static/media/react.dc67782bdec3a7c99de80e3badeafbb0.svg",
     "static/media/github.svg": "/Portfolio/static/media/github.d37bebd8efb81b05f5acf0948a4f5bbf.svg",
@@ -17,12 +17,12 @@
     "index.html": "/Portfolio/index.html",
     "static/media/css3-alt.svg": "/Portfolio/static/media/css3-alt.5203500328562dc8692f84d1353c27af.svg",
     "static/media/html5.svg": "/Portfolio/static/media/html5.4fe58d7ec3bbf063476a6c80276c62e0.svg",
-    "main.188c9189.css.map": "/Portfolio/static/css/main.188c9189.css.map",
-    "main.87178040.js.map": "/Portfolio/static/js/main.87178040.js.map",
+    "main.6029b650.css.map": "/Portfolio/static/css/main.6029b650.css.map",
+    "main.ca4d28b7.js.map": "/Portfolio/static/js/main.ca4d28b7.js.map",
     "453.1407b060.chunk.js.map": "/Portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.188c9189.css",
-    "static/js/main.87178040.js"
+    "static/css/main.6029b650.css",
+    "static/js/main.ca4d28b7.js"
   ]
 }
