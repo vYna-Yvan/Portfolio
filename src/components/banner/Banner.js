@@ -14,13 +14,15 @@ const Banner = () => {
         </h1>
         <h2>Intégrateur / Développeur Web</h2>
         <p>
-          J’ai 22 ans, et je suis actuellement dans une formation
+          J'ai 22 ans et je suis actuellement en formation chez Openclassroom.
           <br />
-          chez Openclassroom, pour 2024 j'espère passer au niveau supérieur
+          Pour l'année 2024, j'espère passer au niveau supérieur et effectuer
+          une alternance
           <br />
-          et faire une alternance dans une entreprise pour gagner en expérience
-          et connaissance.
+          au sein d'une entreprise afin d'acquérir de l'expérience et
+          d'approfondir mes connaissances.
         </p>
+
         <div className="contact-banner">
           <Anchor smooth to="/#contact">
             {" "}
