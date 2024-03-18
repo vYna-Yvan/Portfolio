@@ -4,7 +4,7 @@ import Header from "../components/header/Header.js";
 import Footer from "../components/footer/Footer.js";
 import Home from "../pages/Home.js";
 
-const Navigation = () => {
+const Layout = () => {
   return (
     <Router>
       <Header />
@@ -14,4 +14,4 @@ const Navigation = () => {
   );
 };
 
-export default Navigation;
+export default Layout;

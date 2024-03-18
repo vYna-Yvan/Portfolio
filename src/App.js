@@ -1,10 +1,10 @@
 import "./App.scss";
-import Navigation from "./Layout/Layout.js";
+import Layout from "./Layout/Layout.js";
 
 // index.js or App.js
 
 function App() {
-  return <Navigation />;
+  return <Layout />;
 }
 
 export default App;
