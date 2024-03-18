@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.8c200aea.css",
-    "main.js": "/Portfolio/static/js/main.e8aee959.js",
+    "main.js": "/Portfolio/static/js/main.9ee64e74.js",
     "static/js/453.1407b060.chunk.js": "/Portfolio/static/js/453.1407b060.chunk.js",
     "static/media/OhMyFood_home.png": "/Portfolio/static/media/OhMyFood_home.5fcfe744200f3a0e4d58.png",
     "static/media/724event.png": "/Portfolio/static/media/724event.582c6527bbf552311215.png",
@@ -18,11 +18,11 @@
     "static/media/css3-alt.svg": "/Portfolio/static/media/css3-alt.5203500328562dc8692f84d1353c27af.svg",
     "static/media/html5.svg": "/Portfolio/static/media/html5.4fe58d7ec3bbf063476a6c80276c62e0.svg",
     "main.8c200aea.css.map": "/Portfolio/static/css/main.8c200aea.css.map",
-    "main.e8aee959.js.map": "/Portfolio/static/js/main.e8aee959.js.map",
+    "main.9ee64e74.js.map": "/Portfolio/static/js/main.9ee64e74.js.map",
     "453.1407b060.chunk.js.map": "/Portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8c200aea.css",
-    "static/js/main.e8aee959.js"
+    "static/js/main.9ee64e74.js"
   ]
 }
