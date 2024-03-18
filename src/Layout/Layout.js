@@ -9,7 +9,6 @@ const Navigation = () => {
     <Router>
       <Header />
       <Home />
-
       <Footer id="contact" />
     </Router>
   );

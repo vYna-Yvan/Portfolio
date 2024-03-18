@@ -1,5 +1,5 @@
 import "./App.scss";
-import Navigation from "./router/Navigation.js";
+import Navigation from "./Layout/Layout.js";
 
 // index.js or App.js
 
