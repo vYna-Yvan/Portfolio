@@ -36,7 +36,7 @@ export const projectsData = [
     image: kasa,
     date: "12-2023",
     stacks: ["React", "Router", "CSS"],
-    githubRepo: "https://github.com/username/kasa-repo",
+    githubRepo: "https://github.com/vYna-Yvan/kasa",
     liveSite: "https://vyna-yvan.github.io/kasa/",
     description: `Une application de location d'appartements pour des séjours courts.
       J'ai rénové le site de Kasa, une entreprise de location d'appartements. 
