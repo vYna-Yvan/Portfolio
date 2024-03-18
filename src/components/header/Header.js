@@ -19,7 +19,7 @@ const Header = () => {
           </li>
           <li>
             <Anchor smooth to="/#skills">
-              Compétence
+              Compétences
             </Anchor>
           </li>
         </ul>

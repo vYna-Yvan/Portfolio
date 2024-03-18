@@ -30,7 +30,6 @@ const Footer = () => {
 
   return (
     <div id="contact" className="footer-container">
-      <div>Contenu du pied de page</div>
       <form onSubmit={handleSubmit}>
         <label htmlFor="name">Nom :</label>
         <input
