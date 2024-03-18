@@ -37,7 +37,7 @@ const AboutMe = () => {
             to="https://www.apple.com/fr/swift/playgrounds/"
             target="_blank"
           >
-            SwiftPlaygrounds
+            Swift Playgrounds
           </Link>{" "}
           d'Apple . Cette période de découverte a été cruciale pour moi, car
           elle m'a permis de définir ma passion et de me concentrer sur mes
